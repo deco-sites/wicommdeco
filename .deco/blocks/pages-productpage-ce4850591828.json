@@ -28,7 +28,8 @@
       "section": {
         "__resolveType": "site/sections/Product/ProductDetails.tsx",
         "page": {
-          "__resolveType": "PDP Loader"
+          "__resolveType": "wake/loaders/productDetailsPage.ts",
+          "slug": "/enilson/:slug/p"
         }
       }
     },
