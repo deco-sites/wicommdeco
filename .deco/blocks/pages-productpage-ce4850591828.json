@@ -39,18 +39,30 @@
         "__resolveType": "site/sections/Product/ProductShelf.tsx",
         "title": "You may also like",
         "products": {
-          "__resolveType": "shopify/loaders/ProductList.ts",
-          "props": {
-            "sort": "",
-            "query": "a",
-            "count": 9
-          },
+          "__resolveType": "wake/loaders/productList.ts",
           "filters": {
-            "tags": [],
-            "productTypes": [],
-            "productVendors": [],
-            "variantOptions": []
-          }
+            "attributes": {
+              "id": [],
+              "name": [],
+              "type": [],
+              "value": []
+            },
+            "brandId": [],
+            "categoryId": [],
+            "ean": [],
+            "productId": [],
+            "productVariantId": [],
+            "sameParentAs": [],
+            "sku": [],
+            "stocks": {
+              "dcId": [],
+              "dcName": []
+            },
+            "prices": {}
+          },
+          "first": 12,
+          "sortDirection": "ASC",
+          "sortKey": "DISCOUNT"
         }
       }
     },
