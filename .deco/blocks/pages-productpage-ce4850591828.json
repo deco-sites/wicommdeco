@@ -1,6 +1,6 @@
 {
   "name": "Product Page",
-  "path": "/enilson/:slug",
+  "path": "enilson/:slug",
   "default": {
     "possiblePaths": []
   },
@@ -29,7 +29,7 @@
         "__resolveType": "site/sections/Product/ProductDetails.tsx",
         "page": {
           "__resolveType": "wake/loaders/productDetailsPage.ts",
-          "slug": "/enilson/:slug",
+          "slug": "produto/:slug",
           "buyTogether": false
         }
       }
