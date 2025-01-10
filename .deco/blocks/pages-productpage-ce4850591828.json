@@ -1,6 +1,6 @@
 {
   "name": "Product Page",
-  "path": "produto/:slug",
+  "path": "enilson/:slug",
   "default": {
     "possiblePaths": []
   },
