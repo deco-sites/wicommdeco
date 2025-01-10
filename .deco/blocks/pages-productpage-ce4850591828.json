@@ -30,7 +30,7 @@
         "page": {
           "__resolveType": "wake/loaders/productDetailsPage.ts",
           "slug": "/enilson/:slug",
-          "buyTogether": true
+          "buyTogether": false
         }
       }
     },
